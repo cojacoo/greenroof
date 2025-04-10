@@ -13,7 +13,7 @@ library(zoo)
 
 # Read the data from the CSV file
 #data <- read.csv("3653897.csv")
-data <- read.csv('https://github.com/cojacoo/greenroof/raw/refs/heads/master/3653897.csv')
+data <- read.csv('https://github.com/cojacoo/greenroof/raw/refs/heads/main/3653897.csv')
 
 # Convert DATE to a date format and set as index
 data$DATE <- as.Date(data$DATE)
